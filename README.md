@@ -1,1 +1,1 @@
-# [dipooktama.github.io](https://dipooktama.com)
+# dipooktama.github.io
