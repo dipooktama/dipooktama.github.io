@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+:root{
+    /*--color1: #1C1F5E;*/
+    --color3: #f0f0f0;
+    --color4: #303030;
+    --color1: #252945;
+    --color2: #7F8EEB;
+    --color5: #5c67ab;
+    --color6: #F7F36D;
+    --color7: #F7D09E;
+    --color8: #AB8C65;
+}
+
+html,body{
+    overflow: hidden;
+    width: 100%; height: 100%;
+    max-height: 100%; max-width: 100%;
+    margin: 0; padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*background-color: var(--color1);*/
+    background: linear-gradient(270deg, #252945, #5c67ab, #5f86c2);
+    background-size: 200% 200%;
+    -webkit-animation: bgGradient 30s ease infinite;
+    -moz-animation: bgGradient 30s ease infinite;
+    animation: bgGradient 30s ease infinite;
+}
+
+@-webkit-keyframes bgGradient {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes bgGradient {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes bgGradient {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+.headerGede{
+    text-align: center;
+    font-family: 'Roboto',sans-serif;
+    color: var(--color6);
+}
+
+.headerGede span{
+    color: var(--color3);
+    text-transform: uppercase;
+    font-size: 3em;   
+}
+
