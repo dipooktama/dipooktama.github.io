@@ -2,10 +2,14 @@
 
 :root{
     /*--color1: #1C1F5E;*/
-    --color1: #252945;
-    --color2: #7F8EEB;
     --color3: #f0f0f0;
     --color4: #303030;
+    --color1: #252945;
+    --color2: #7F8EEB;
+    --color5: #5c67ab;
+    --color6: #F7F36D;
+    --color7: #F7D09E;
+    --color8: #AB8C65;
 }
 
 html,body{
@@ -45,7 +49,7 @@ body{
 .headerGede{
     text-align: center;
     font-family: 'Roboto',sans-serif;
-    color: var(--color2);
+    color: var(--color6);
 }
 
 .headerGede span{
