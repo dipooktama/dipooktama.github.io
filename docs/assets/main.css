@@ -52,7 +52,7 @@ body{
 }
 
 .headerGede{
-    /*text-align: center;*/
+    text-align: center;
     font-family: 'Roboto',sans-serif;
     /*color: var(--color6);*/
     color: #835F5F;
@@ -62,5 +62,11 @@ body{
     color: var(--color4);
     text-transform: uppercase;
     /*font-size: 3em;*/   
+}
+
+@media screen and (max-width:600px) {
+    .gambar {
+        width: 60%;
+    }
 }
 
