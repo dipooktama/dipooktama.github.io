@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="407" height="420" fill="none" viewBox="0 0 407 420">
+  <path fill="#C4C4C4" d="M81 372V46h245v326z"/>
+  <path fill="#9B9B9B" d="m0 5 5-5 81 49v320H73L0 326V5Z"/>
+  <path fill="#7C7C7C" d="m407 5-4.5-5L321 49v320h13l73-43V5Z"/>
+  <path fill="#D8D8D8" d="M5 321V0l76.5 46v321L5 321Z"/>
+  <path fill="#C4C4C4" d="M402.5 321V0L326 46v321l76.5-46Z"/>
+  <path fill="#7C7C7C" d="M138 161c17.6-33.6 28-93.667 30-110H81v324c10 12 59.549 13.383 57 0-8-42-30.411-67.232-38-90-7.59-22.768-5-28-5-45 0-21 25.4-45.4 43-79Zm130 0c-17.6-33.6-28-93.667-30-110h87v324c-10 12-59.549 13.383-57 0 8-42 30.411-67.232 38-90 7.589-22.768 5-28 5-45 0-21-25.4-45.4-43-79Z"/>
+  <path stroke="#D8D8D8" stroke-width="5" d="M83.5 370.5v-322h240v322z"/>
+  <path fill="#835F5F" d="M155 337c0-25.405 20.595-46 46-46s46 20.595 46 46v49h-92v-49Z"/>
+  <circle cx="201" cy="257" r="37" fill="#A99999"/>
+  <mask id="a" width="74" height="74" x="164" y="220" maskUnits="userSpaceOnUse" style="mask-type:alpha">
+    <circle cx="201" cy="257" r="37" fill="#9D9C9C"/>
+  </mask>
+  <g mask="url(#a)">
+    <circle cx="222" cy="221" r="37" fill="#737272"/>
+    <circle cx="195" cy="220" r="37" fill="#575151"/>
+    <circle cx="170" cy="219" r="37" fill="#3A3737"/>
+  </g>
+  <mask id="b" width="92" height="129" x="155" y="291" maskUnits="userSpaceOnUse" style="mask-type:alpha">
+    <path fill="#A99999" d="M155 337c0-25.405 20.595-46 46-46s46 20.595 46 46v83h-92v-83Z"/>
+  </mask>
+  <g mask="url(#b)">
+    <rect width="104" height="26" x="129" y="343" fill="#523232" rx="13"/>
+  </g>
+  <rect width="70" height="26" x="192.882" y="317.385" fill="#835F5F" rx="13" transform="rotate(135 192.882 317.385)"/>
+  <rect width="104" height="26" x="128" y="338" fill="#A99999" rx="13"/>
+  <path fill="#C4C4C4" d="M59 378v-11h291v11z"/>
+  <path fill="#9B9B9B" d="m79 389-5-11h261l-6 11H79Z"/>
+</svg>

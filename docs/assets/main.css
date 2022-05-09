@@ -22,12 +22,17 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    /*background-color: var(--color1);*/
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: var(--color3);
+    /*background: linear-gradient(180deg, var(--color3), #505050);*/
+    /*
     background: linear-gradient(270deg, #252945, #5c67ab, #5f86c2);
     background-size: 200% 200%;
     -webkit-animation: bgGradient 30s ease infinite;
     -moz-animation: bgGradient 30s ease infinite;
     animation: bgGradient 30s ease infinite;
+    */
 }
 
 @-webkit-keyframes bgGradient {
@@ -47,14 +52,15 @@ body{
 }
 
 .headerGede{
-    text-align: center;
+    /*text-align: center;*/
     font-family: 'Roboto',sans-serif;
-    color: var(--color6);
+    /*color: var(--color6);*/
+    color: #835F5F;
 }
 
 .headerGede span{
-    color: var(--color3);
+    color: var(--color4);
     text-transform: uppercase;
-    font-size: 3em;   
+    /*font-size: 3em;*/   
 }
 
