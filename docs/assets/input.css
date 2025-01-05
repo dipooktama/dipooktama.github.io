@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.github-logo {
+    @apply bg-[url('./github-mark.svg')] scale-50;
+}
+
+.github-log:hover {
+    @apply bg-[url('./github-mark-white.svg')];
+}
