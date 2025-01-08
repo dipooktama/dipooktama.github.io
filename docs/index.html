@@ -37,178 +37,85 @@
         .bgimg-dipo {
             background-image: url('./assets/img.avif');
             background-repeat: no-repeat;
-            background-position: left;
+            background-position: left bottom;
             background-size: 40% auto;
         }
     </style>
 </head>
 
-<body class="container mx-auto px-4 pt-4 text-slate-700 text-sm font-sans h-screen">
-    <main class="flex flex-col h-full">
-        <section class="flex-1/12">
-            <ul class="flex flex-row w-full justify-between mb-4">
-                <li>Medan, Indonesia</li>
-                <li><a href="mailto:dipooktama@pm.me" class="underline">dipooktama@pm.me</a></li>
-                <li><a href="https://github.com/dipooktama" class="underline">github.com/dipooktama</a></li>
-            </ul>
+<body class="text-slate-700 flex flex-col w-full min-h-screen h-max bg-slate-200 relative font-sans">
+    <section class="flex flex-row w-full justify-between bg-slate-200 shadow-md sticky top-0">
+        <header class="basis-1/3 pl-4 py-4 font-bold uppercase"><span class="text-red-900">Dipo</span> Oktama</header>
+        <nav class="basis-1/3 flex flex-row h-full justify-center">
+            <a href="/" class="px-4 py-4 h-full hover:bg-red-900 hover:text-slate-200">Home</a>
+            <a href="../page" class="px-4 py-4 h-full hover:bg-red-900 hover:text-slate-200">Blog</a>
+            <a href="../resume" class="px-4 py-4 h-full hover:bg-red-900 hover:text-slate-200">Resume</a>
+        </nav>
+        <section class="basis-1/3 pr-4 flex flex-row h-full justify-end">
+            <a href="https://github.com/dipooktama" class="px-4 py-4 h-full">
+                <img src="./assets/github-mark.svg" class="h-5" />
+            </a>
+            <a href="https://linkedin.com/in/dipooktama" class="px-4 py-4 h-full">
+                <img src="./assets/linkedin.png" class="h-5" />
+            </a>
         </section>
-        <section class="flex-3/12">
-            <h1 class="text-6xl mb-4 font-black font-mono text-center"><span class="text-red-900">DIPO</span> OKTAMA
-            </h1>
-            <p class="mb-4 text-sm text-justify">
-                Full of curiosity and eager to learn something new, I love playing games and interested in making one.
-                Currently working as a Java Springboot Backend Developer at Pusat Sistem Informasi Universitas Sumatera
-                Utara gives me some skills and knowledge on how to make a service that would help people accomplishes
-                their work, or how to solve their problem using tools that I got in my hand. I've also made a
-                microservice PoC using Laravel, Sveltekit and Docker. My latest interest is Large Language Models and
-                RAG stuffs.
-            </p>
-        </section>
-        <article class="flex flex-8/12 flex-row w-full grow bgimg-dipo text-sm">
-            <section class="w-1/3"></section>
-            <section class="w-2/3 flex flex-col">
-                <section class="w-full flex flex-row grow">
-                    <div class="text-right mr-2 w-1/2 flex flex-col">
-                        <h2 class="mb-2 text-red-900 font-black">WORK EXPERIENCES</h2>
-                        <ul class="flex flex-col grow">
-                            <li class="mb-2 grow">
-                                <h3 class="font-semibold">Backend Developer at Universitas Sumatera Utara</h3>
-                                <p class="text-xs">Oct 2024 - Present</p>
-                                <p class="text-xs">
-                                    worked at Pusat Sistem Informasi unit to maintain the Academic Management System,
-                                    Graduation and
-                                    Alumni
-                                    Management System which use Java Springboot. Also developing LLM app and its
-                                    integration
-                                    to the
-                                    Academic
-                                    System using Python FastAPI.
-                                </p>
-                            </li>
-                            <li class="mb-2 grow">
-                                <h3 class="font-semibold">Programmer Internship at Universitas Sumatera Utara</h3>
-                                <p class="text-xs">Oct 2022 - Oct 2024</p>
-                                <p class="text-xs">
-                                    worked at Pusat Sistem Informasi unit to integrate SSO to the PHP-based e-learning
-                                    system,
-                                    developing
-                                    MOOC using NextJS, developing internal network management app using Laravel and
-                                    Docker,
-                                    and also
-                                    writing
-                                    some Java Springboot modules for the Academic System.
-                                </p>
-                            </li>
-                            <li class="mb-2 grow">
-                                <h3 class="font-semibold">Freelance Graphic Designer and Illustrator</h3>
-                                <p class="text-xs">Oct 2020 - Oct 2022</p>
-                                <p class="text-xs">
-                                    Drawing a portrait shot of a subject and designing brand logo using both Adobe
-                                    Photoshop
-                                    and
-                                    Adobe
-                                    Illustrator.
-                                </p>
-                            </li>
-                            <!--li class="mb-2">
-                                <h3>Web Developer Internship at Algoritma Technology</h3>
-                                <p>July 2020 - August 2020</p>
-                                <p>
-                                Created a fullstack local touring website for Aceh region using PHP CodeIgniter.
-                                </p>
-                            </li-->
-                        </ul>
-
-                        <h2 class="mb-2 text-red-900 font-black">CERTIFICATIONS</h2>
-                        <ul class="grow">
-                            <li class="mb-2">
-                                <h3 class="font-semibold">CompTIA Security+ ce Certification</h3>
-                                <p class="text-xs">Issued by CompTIA on Feb 2023 | Expires on Feb 2026</p>
-                                <p class="text-xs">Credential ID <a href="http://verify.CompTIA.org"
-                                        class="underline">S3F9E54YEBE1145X</a>
-                                </p>
-                            </li>
-                        </ul>
-                    </div>
-
-                    <div class="ml-2 w-1/2 flex flex-col">
-                        <h2 class="mb-2 text-red-900 font-black">EDUCATION</h2>
-                        <ul class="flex flex-col">
-                            <li class="mb-2">
-                                <h3 class="font-semibold">Universitas Sumatera Utara</h3>
-                                <p>Bachelor's degree of Computer Science</p>
-                                <p class="text-xs">Jul 2017 - Jul 2024</p>
-                                <p class="text-xs">Grade: 3.75/4.00</p>
-                                <p class="text-xs">Thesis: Implementing Transformer Model (LLM) as Interactive Fiction
-                                    Game
-                                </p>
-                            </li>
-                            <!--li class="mb-2">
-                                <h3 class="font-semibold">SMA Swasta Methodist 4 Medan</h3>
-                                <p class="text-xs">High School Diploma of Science Class</p>
-                                <p class="text-xs">2015 - 2017</p>
-                            </li-->
-                        </ul>
-
-                        <h2 class="mb-2 text-red-900 font-black">PROJECTS</h2>
-                        <ul class="flex flex-col">
-                            <li class="mb-2">
-                                <h3 class="font-semibold">Narrator Project</h3>
-                                <p class="text-xs">
-                                    Using Mistral as a narrator of an interactive fiction game. It offers infinite
-                                    playability and
-                                    built using Python Flask, and Huggingface Inference Endpoint.
-                                </p>
-                            </li>
-                            <li class="mb-2">
-                                <h3 class="font-semibold"><a href="https://github.com/dipooktama/markdownparser"
-                                        class="underline">Markdown Parser</a></h3>
-                                <p class="text-xs">
-                                    A Markdown to HTML converter made with python. I wrote this to help me on publishing
-                                    my
-                                    written
-                                    blog on github pages.
-                                </p>
-                            </li>
-                            <li class="mb-2">
-                                <h3 class="font-semibold"><a href="https://github.com/dipooktama/diceroller"
-                                        class="underline">Dice Roller</a>
-                                </h3>
-                                <p class="text-xs">
-                                    A simple chrome extension to roll a dice or batch of dices. I wrote this because I
-                                    like
-                                    playing
-                                    D&D.
-                                </p>
-                            </li>
-                        </ul>
-                        <h2 class="mb-2 text-red-900 font-black">SKILLS</h2>
-                        <ol class="flex flex-row flex-wrap gap-x-4 text-xs">
-                            <li>Javascript</li>
-                            <li>CSS</li>
-                            <li>TailwindCSS</li>
-                            <li>PHP</li>
-                            <li>Laravel</li>
-                            <li>MySQL</li>
-                            <li>MongoDB</li>
-                            <li>Git</li>
-                            <li>Python</li>
-                            <li>FastAPI</li>
-                            <li>Large Language Model</li>
-                            <li>Java Springboot</li>
-                            <li>Linux</li>
-                            <li>Docker</li>
-                            <li>NGINX</li>
-                            <li>Indonesia</li>
-                            <li>English</li>
-                            <li>Photoshop</li>
-                            <li>Illustrator</li>
-                        </ol>
-                    </div>
-                </section>
+    </section>
+    <main class="flex flex-row grow w-full">
+        <article class="bgimg-dipo w-full flex flex-row bg-slate-200 ">
+            <section class="basis-1/3">
+            </section>
+            <section class="basis-2/3 flex flex-col pl-8 pr-8 my-10 text-justify text-lg">
+                <h1 class="text-6xl mb-4 font-black uppercase"><span class="text-red-900">Hello</span> World;
+                </h1>
+                <p class="mb-4">My name is <span class="text-red-900">Dipo</span>, a <code
+                        class="bg-slate-300">backend</code> guy
+                    who are full of curiosity and eager to learn something new. I love playing <code
+                        class="bg-slate-300">games</code> and had been
+                    wanting to make one (got several concepts already). Currently working at Universitas Sumatera Utara
+                    as
+                    a part of the Pusat Sistem Informasi team, I delivered several features for the Academic Management
+                    System that can help lecturers, staff and student accomplish their paper work. Beyond that, I also
+                    explored how to build a microservice and my latest work is building an AI app that can be integrated
+                    in the exisiting Academic System.</p>
+                <p class="mb-4 indent-4">So far I've been using Java Springboot (thanks to Intellij IDEA), Laravel,
+                    Python and
+                    Javascript for
+                    my works or projects. I also used Docker and Nginx to built a microservice. But it seems like <code
+                        class="bg-slate-300">Python</code>
+                    is my go-to since it's easy to script (and its tooling (eg. uv, uvicorn,
+                    fastapi) are good nowadays).</p>
+                <p class="mb-4 indent-4">My current interest is dabbling in <code class="bg-slate-300">AI/ML</code>
+                    stuffs, like
+                    building an LLM application. I
+                    like to explore models like Mistral, Gemma, or Llama. By building it, I learned a new thing like
+                    <code class="bg-slate-300">Server Sent Event</code> and Markdown rendering (which I used that
+                    knowledge to write this site). I also want to learn about <code class="bg-slate-300">DevOps</code>
+                    stuffs. It's really fun to be able to make an end-to-end stuffs. Oh right and games, really want to
+                    make one.
+                </p>
+                <p class="mb-4 indent-4">Outside of computer stuffs, I also like to watch some mystery movies, K-drama,
+                    Runeterra
+                    lore and listening to music like K-pop, J-Rock or songs from Linkin Park, Simple Plan, and Eve.</p>
+                <p class="mb-4 grow">Well, perhaps it's kinda all over the place, but this is just what I'm about.
+                    Reach me
+                    on my <a href="linkedin/in/dipooktama" class="underline">linkedin</a> or my <a
+                        href="mailto:dipooktama@pm.me" class="underline">email</a>, <span
+                        class="text-red-900">Salken</span>!</p>
             </section>
         </article>
     </main>
+    <footer class="w-full bottom-0 bg-red-900 text-slate-200 flex flex-row justify-center">
+        <p id="footer-p" class="py-4 text-xs">&copy;</p>
+    </footer>
 </body>
+<script>
+    const footer = document.getElementById('footer-p');
+    if (footer) {
+        const dateobj = new Date();
+        const year = dateobj.getFullYear();
+        const text = footer.innerText + " " + year + " Dipo Oktama";
+        footer.innerText = text;
+    }
+</script>
 
 </html>
